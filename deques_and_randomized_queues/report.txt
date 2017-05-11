@@ -1,0 +1,54 @@
+Justin Kwan
+CS 210
+
+1. Hours to complete the project: 29 hours
+
+2. Provide a short description of how you approached each problem, issues you 
+   encountered, and how you resolved those issues.
+
+   Problem 1 (Deque): I approached this problem by looking at the slides
+	and looked specifically at linked list data structure. I also 
+	watched the video Swami provided to get a further understanding
+	I followed the part of the slides where you removed elements from
+	linked list and adding elements in the linked list. They only showed
+	it for the front but I just applied to to the opposite direction 
+	to do the other end.
+		
+	Issues:
+		My only issue with this problem was when I was not checking
+	if the first and last were null when I added and removed things.
+	I solved this issue by checking for nulls in these cases.
+
+   Problem 2 (Random Queue): I approached this problem by looking at the 
+	basic data structures slides. Particularly I looked at the slide
+	with Queue’s using a resizing array. I chose this because the 
+	problem dealt with a Queue that used a resizing array. I followed
+	the slides carefully and it provided to be very useful.
+	
+	Issues:
+		My only issue with this problem was that when I shuffled
+	I would shuffle all the null spaces in the array so I would get
+	a NullPointerException. I solved this issue by shuffling by amount
+	of items currently inside the Array and not any of the nulls.
+
+   Problem 3 (Subset): This problem I used the previous problem by using
+	a random queue. I added the input strings into this queue then just
+dequeued only K amounts based off the input. Then printed the results out.
+   
+3. Did you receive help from anyone? List their names, status (classmate, 
+   CS210 grad, TA, other), and the nature of help received.
+
+   Name               Status       Help Received
+   ----               ------       -------------
+
+   Kyler           SI Instructor   Clarified Exceptions and Issues
+   
+   Anwesh Joshi    Classmate       Clarified and Vague Ideas and Details
+
+4. List any other comments here. Feel free to provide any feedback on how
+   much you learned from doing the assignment, and whether you enjoyed
+   doing it.
+
+I think the assignment was not the hardest, but figuring out the null pointers
+had taken some time to solve since I didn’t not know what the issue was. The
+slides provided a lot of the information needed to finish the project.
